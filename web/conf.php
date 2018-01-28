@@ -1,7 +1,8 @@
 <?php
 session_start();
-$books = $_POST["books"];
-$_SESSION['books'] = $books;
+$books = $_SESSION['books'];
+$name = htmlspecialchars($_POST['name']);
+$mail = htmlspecialchars($_POST['mail']);
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,7 +19,8 @@ $_SESSION['books'] = $books;
 			  <li><a href="shopping.html">Browse Items</a></li>
 			</ul>
 		</nav>
-		<h1>Cart</h1>
+		<h1>Confirmation</h1>
+		<p>You have purchased:</p>
 		<ul>
 		<?php
 			foreach ($books as $book)
@@ -28,8 +30,11 @@ $_SESSION['books'] = $books;
 			}
 		?>
 		</ul>
-		<a href="CheckOut.php">Check Out<a>
 		<br>
-		<a href="shopping.html">Return to Shopping<a>
+		<p>To be sent to: </p>
+		<?php
+			echo "<p>$name</p>";
+			echo "<p>$mail</p>"
+		?>		
 	</body>
 </html>
