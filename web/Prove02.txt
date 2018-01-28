@@ -1,0 +1,28 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application:
+https://protected-citadel-17514.herokuapp.com/home.html
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/shanna90/CS-313
+
+
+3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
+Picture and text are loading. Links in navigation bar work properly
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+N/A
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+Just good to get back into the swing of html and css
+
+6. What is the difference between an HTTP Get and Post? When should each be used?
+Get retrives data, while Post submits data. If you need data, use get. If you are returning results, use post. 
+
+7. Please select the category you feel best describes your assignment:
+
+E - Shows creativity and excels above and beyond requirements
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+I've downloaded a custom font, used floating layout, and designated the active page on the navigation bar. 

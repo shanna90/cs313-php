@@ -1,0 +1,24 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: darkgrey;
+}
+p {
+    color: white;
+}
+div:hover{
+	font-weight: bold;
+}
+#div1{
+	background-color: darkblue;
+	font-size: 16pt;
+}
+#div2{
+	background-color: darkcyan;
+	font-size: 24pt;
+}
+#div3{
+	background-color: darkslateblue;
+	font-size: 36pt;
+}

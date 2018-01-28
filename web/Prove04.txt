@@ -1,0 +1,23 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Describe something from your database that you think came together very nicely.
+The loan table uses the book id as a foriegn key, and makes sure it is unique, so only one person can borrow a single book 
+at one time. 
+
+2. Describe something from your database that you think could be improved or extended in the future.
+There are some feilds in the table that only apply to certain types of books, so I wonder if I should have separate 
+tables for each type of book. Now, the type is an integer, with 1 being for adult books, and 2 being for children's books.
+I wonder if that could be done less ambiguously.
+
+3. Briefly describe the "coolest" thing you learned while completing this assignment.
+The fact I ever got bitnami to work. Though I'm still unsure about the technology. I'm used to Oracle, not PostgreSQL
+
+4. Briefly describe two principles of good database design.
+Good databases have clear relationships, and logical labeling. 
+
+5. Please select the category you feel best describes your assignment:
+E - Shows creativity and excels above and beyond requirements
+
+
+6. Provide a brief justification (1-2 sentences) for selecting that category.
+I believe that the NOT NULL and UNIQUE constraints were not in the reading, and therefore above the requirements. 

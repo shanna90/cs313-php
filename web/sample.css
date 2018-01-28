@@ -1,0 +1,12 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: darkgrey;
+}
+p {
+    color: white;
+}
+div{
+	hover: bold;
+}
