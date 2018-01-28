@@ -26,7 +26,7 @@ $mail = htmlspecialchars($_POST['mail']);
 			foreach ($books as $book)
 			{
 				$book_clean = htmlspecialchars($book);
-				echo "<li><p>$book_clean</p></li>";
+				echo "<li><p>$book_clean</p></li><br>";
 			}
 		?>
 		</ul>
