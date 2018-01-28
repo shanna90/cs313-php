@@ -1,0 +1,29 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application:
+https://lit-ridge-56475.herokuapp.com/shopping.html
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/shanna90/cs313-php
+
+3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
+Everything is functioning on my local host
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+Github seems to think that everything is up to date and will not commit my most recent changes. 
+I'll continue to work on this in hopes I can fix it before you click on the link. 
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+Sessions will be useful
+
+6. List one strength and one limitation of using cookies.
+It is great at storing lasting information(longer than just a session) but it trusts the user's machine to 
+keep and store the cookie. 
+
+7. Please select the category you feel best describes your assignment:
+
+E - Shows creativity and excels above and beyond requirements
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+I use a responsive design, lots and lots of visuals, and have a nice template.

@@ -28,7 +28,7 @@ $_SESSION['books'] = $books;
 			}
 		?>
 		</ul>
-		<a href="CheckOut.php">Check Out<a>
+		<a href="checkout.php">Check Out<a>
 		<br>
 		<a href="shopping.html">Return to Shopping<a>
 	</body>
