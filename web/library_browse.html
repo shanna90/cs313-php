@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Add Title</title>
+	</head>
+	<body>
+		<nav>
+			<ul>
+			  <li><a href="home.html">Home</a></li>
+			  <li><a href="assignments.html">Assignments</a></li>
+			  <li class="dropdown"><a href="library.html">Library</a></li>
+				<div class="dropdown-content">
+				  <a href="library_search.html">Search Books</a>
+				  <a href="library_browse.html">Browse Books</a>
+				  <a href="add_title.html">Add Title</a>
+				  <a href="add_student.html">Add Student</a>
+				</div> 
+			</ul>
+		</nav>
+		<h1>Browse Titles</h1>
+		<form action="browse.php" method="POST" id="browse">
+			<strong>
+			Title:<br>
+			<input type="text" name="title"><br>
+			Author:<br>
+			<input type="text" name="author"><br>
+			<input type="submit">
+			</strong>
+		</form>
+	</body>
+</html>
